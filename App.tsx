@@ -62,7 +62,7 @@ export default function App() {
   }, [winner]);
 
   return (
-    <>
+    <div>
       <div className="main">
         <h2>Tic Tac Toe </h2>
         <div className="App">
@@ -78,8 +78,8 @@ export default function App() {
             </div>
           ))}
         </div>
-        <h3>&copy; Ashar 2023</h3>
+        <h3>&copy; Amar 2023</h3>
       </div>
-    </>
+    </div>
   );
 }
